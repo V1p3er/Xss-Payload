@@ -102,10 +102,7 @@ Found a new bypass? Submit a Pull Request!
 - Add to appropriate file
 - Include context (e.g., "Bypasses Cloudflare regex")
 - Keep ethical – no live target details
-
-## 📜 License
-[MIT License](LICENSE) – Free to use, modify, and share for educational purposes.
-
+- 
 ---
 
 **Stars appreciated if this helps your red team journey!** ⭐  
