@@ -109,13 +109,3 @@ Found a new bypass? Submit a Pull Request!
 
 
 **Happy (ethical) hunting!** 🛡️
-
-
-
-
-
-
-
-
-
-Copy this entire markdown into your GitHub README.md – it's professional, visual, and resume-ready. Let me know if you want adjustments! 🚀
