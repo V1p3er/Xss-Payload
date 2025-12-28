@@ -49,7 +49,6 @@ Inspired by repositories like:
 │   └── advanced-chains.txt    # DOM-based, SVG, etc.
 ├── README.md                  # This file
 ├── CONTRIBUTING.md            # How to contribute
-└── LICENSE                    # MIT License
 ```
 
 **All payloads are in plain text files for easy loading into tools like Burp Intruder or XSStrike.**
